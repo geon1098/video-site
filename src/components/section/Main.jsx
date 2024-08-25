@@ -2,9 +2,9 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div id='main' role='main'>
+    <main id='main' role='main'>
      Main
-    </div>
+    </main>
   )
 }
 
