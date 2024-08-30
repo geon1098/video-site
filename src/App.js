@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Today from './pages/Today'
@@ -20,8 +20,7 @@ import Footer from './components/section/Footer'
 const App = () => {
   return (
       <BrowserRouter>
-       <Header />
-       <Main>
+        <Suspense fallback={<Main />}>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/today' element={<Today />} />
@@ -36,8 +35,7 @@ const App = () => {
           <Route path='/search/:searchID' element={<Search />} />
           <Route path='/*' element={<Not />} />
         </Routes>
-       </Main>
-       <Footer />
+        </Suspense>
       </BrowserRouter>
   )
 }
