@@ -5,42 +5,42 @@ import { AiFillYoutube } from "react-icons/ai";
 
 export const headerMenus = [
     {
-        title:"홈 페이지",
+        title:"홈",
         icon:<CiAlarmOn />,
         src:"/"
     },
     {
-        title:"추천 영상",
+        title:"추천 매물",
         icon:<CiAlarmOn />,
         src:"/today"
     },
     {
-        title:"개발자",
+        title:"분양자",
         icon:<CiAlarmOn />,
         src:"/developer"
     },
     {
-        title:"웹디",
+        title:"뉴스",
         icon:<CiAlarmOn />,
         src:"/webd"
     },
     {
-        title:"웹 표준 사이트",
+        title:"부동산금융",
         icon:<CiAlarmOn />,
         src:"/website"
     },
     {
-        title:"홈 페이지",
+        title:"아파트",
         icon:<CiAlarmOn />,
         src:"/gsap"
     },
     {
-        title:"포폴사이트",
+        title:"분양자 구하기",
         icon:<CiAlarmOn />,
         src:"/port"
     },
     {
-        title:"유튜브 클론 사이트",
+        title:"매물들",
         icon:<CiAlarmOn />,
         src:"/youtube"
     },
@@ -48,19 +48,19 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title:"utubesite",
+        title:"빌라",
         src:"/search/utubesite"
     },
     {
-        title:"HTML",
+        title:"아파트",
         src:"/search/html"
     },
     {
-        title:"CSS",
+        title:"상가",
         src:"/search/css"
     },
     {
-        title:"Javascript",
+        title:"분양원",
         src:"/search/javascript"
     },
     {
@@ -68,23 +68,23 @@ export const searchKeyword = [
         src:"/search/react.js"
     },
     {
-        title:"Next.js",
+        title:"빌딩",
         src:"/search/next.js"
     },
     {
-        title:"Node.js",
+        title:"땅",
         src:"/search/node.js"
     },
     {
-        title:"SQL",
+        title:"투자",
         src:"/search/sql"
     },
     {
-        title:"portfolio",
+        title:"n분의1",
         src:"/search/React Portfolio"
     },
     {
-        title:"music",
+        title:"음악",
         src:"/search/japanMusic"
     },
 ];
